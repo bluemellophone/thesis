@@ -111,7 +111,7 @@ https://www.zotero.org/groups/chucks_rpi_vision_group/items/collectionKey/7K23MM
 
 Acknowledgements
 ----------------
-*The Great Zebra &ambs; Giraffe Count* (GZGC) was powered and administered by
+*The Great Zebra & Giraffe Count* (GZGC) was powered and administered by
 the IBEIS team with notable help from Dr. Paula Kahumbu and staff at Wildlife
 Direct in Nairobi, Kenya.  The IBEIS team would like to thank the people and
 government of Kenya for supporting this research (Permit
@@ -135,5 +135,6 @@ providing patient, never-failing support.  Her dedication to my academic career
 and intellectual progress has been the best example of sacrificial love I have
 ever had the privilege to personally experience.
 
-resources/logo_ibeis.png
-resources/logo_wd_alpha.png
+->![](resources/logo_ibeis.png "IBEIS Logo") ![](resources/logo_wd_alpha.png "Wildlife Direct Logo")<-
+
+

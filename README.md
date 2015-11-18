@@ -18,6 +18,8 @@ Master's Committee
 * Barbara Cutler
 * B&uuml;lent Yener
 
+**The final thesis document can be viewed in rpithesis.pdf**
+
 *Note: From feedback from the committee after the oral presentation, the title
 of the thesis was changed from &ldquo;How Many Plains Zebras And Masai Giraffes
 are in the Nairobi National Park? - A Case Study in Computer Vision and Citizen

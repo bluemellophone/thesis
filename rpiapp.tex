@@ -1,0 +1,67 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                 %
+%                            APPENDICES                           %
+%                                                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix    % This command is used only once!
+\addcontentsline{toc}{chapter}{APPENDIX}             %toc entry  or:
+% \addtocontents{toc}{\parindent0pt\vskip12pt APPENDIX} %toc entry, no page #
+
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{A\arabic{figure}}
+
+\chapter*{APPENDIX} \label{sec:appendix}
+
+%\vspace{1cm}
+%\begin{center}
+%    \mbox{
+%        \includegraphics[page=1,scale=0.62]{resources/godec.pdf}
+%    }
+%\end{center}
+
+\vspace{3.8cm}
+\begin{table}[!ht]
+    \centering
+        \caption[Answer Key to Figure 1.1]{\textbf{Answer Key to Figure 1.1.}}
+    \scalebox{0.80}
+    {
+        \begin{tabular}{c|c}
+                \hline
+                \head{Image 1} & \head{Image 2} \\
+                \hline
+                a & j \\
+            b & f \\
+            c & o \\
+            d & k \\
+            e & h \\
+            f & b \\
+            g & r \\
+            h & e \\
+            i & m \\
+            j & a \\
+            k & d \\
+            l & s \\
+            m & i \\
+            n & p \\
+            o & c \\
+            p & n \\
+            q & t \\
+            r & g \\
+            s & l \\
+            t & q \\
+        \end{tabular}
+    }
+    % \ref{fig:matching} == 1.1
+        \label{tab:answers}
+\end{table}
+
+\begin{figure*}[t]%
+    \centering
+    \subfloat {{ $\vcenter{\hbox{ \includegraphics[page=1,scale=0.70]{resources/godec.pdf} }}$ }}%
+    \caption[Printout Returned to Ambassador Robert F. Godec]{\textbf{Printout Returned to Ambassador Robert F. Godec.}}
+        \label{fig:printout-godec}
+\end{figure*}

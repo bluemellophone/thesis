@@ -1,0 +1,201 @@
+% REMOVE? 
+% Package caused warnings, will convert eps files to pdfs for windows
+%\usepackage{epstopdf}
+%\usepackage{epsfig}
+% Package converts pngs and eps to jpgs for PDF compression
+%\usepackage{degrade}
+% Had to comment out in Ubuntu
+%\usepackage[scientific-notation=true]{siunitx}
+\usepackage{subfig}
+%\usepackage[english=nohyphenation]{hyphsubst}
+
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{pdfpages}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows, shapes,positioning}
+
+\usepackage{mathtools}
+\usepackage{algorithm}
+
+\usepackage{bbm} % REMOVE? 
+
+\usepackage{ulem}
+
+\normalem % Make emph use italics  instead of underline
+
+\usepackage{graphicx}
+\usepackage{siunitx} % REMOVE
+
+
+\usepackage{caption} % REMOVE?
+%\usepackage{subcaption} % REMOVE?
+
+\usepackage{verbatim} %Gives \begin{comment} \end{comment}
+
+
+\newlength{\subfigheight} % REMOVE?
+\setlength{\subfigheight}{1in} % REMOVE?
+
+\usepackage[english]{babel} % REMOVE?
+
+
+%\usepackage{stmaryrd}
+%\SetSymbolFont{stmry}{bold}{U}{stmry}{b}{n}
+
+%\newif\ifreadable
+%\readabletrue
+\ifreadable
+    \usepackage[none]{hyphenat} % No Hyphenations
+    \raggedright % No Justification
+    \usepackage[ left=2in, right=2in, top=2in, bottom=2in, paperwidth=8.5in,
+    paperheight=16383pt, textwidth=280pt, marginparsep=20pt, marginparwidth=100pt,
+    textheight=16263pt, footskip=40pt] {geometry} % One Page
+\fi
+
+\usepackage{pgf} % REMOVE?
+
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{blindtext}
+%\usepackage{type1cm}
+%\usepackage{lettrine}
+%\lettrine[lines=4]{A}{n}
+%\usepackage{yfonts,color}
+
+\usepackage{wasysym}
+\usepackage{needspace}
+%\usepackage[createtips]{fancytooltips}
+
+\usepackage{ifxetex}
+\ifxetex
+    \usepackage{fontspec}
+    %\setmainfont{OpenDyslexic-Regular}
+    %\setmainfont{Arial}
+    %\setmonofont{Lucida Console}
+    %\setsansfont{Comic Sans MS}
+    %\setmainfont[Scale=.8]{Mono Dyslexic}
+    %\setmainfont[Scale=.815]{OpenDyslexic-Regular}
+\fi
+
+
+\usepackage{multirow}
+%\usepackage{color, colortbl}
+%\definecolor{LightCyan}{rgb}{0.88,1,1}
+%\usepackage{algorithmic}
+%\usepackage{tabularx}
+%\usepackage[style=ieee]{biblatex}
+
+%\usepackage{bookman}
+%\usepackage{color}
+%\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\newcommand*{\head}[1]{\textbf{#1}}%
+
+% Fix Float Paramaeter? 
+%\renewcommand\floatpagefraction{1}
+%\renewcommand\topfraction{1}
+%\renewcommand\bottomfraction{1}
+%\renewcommand\textfraction{0}  
+%
+% WACV Float Fix? 
+\renewcommand{\textfraction}{0.01}
+\renewcommand{\floatpagefraction}{0.99}
+\renewcommand{\topfraction}{0.99}
+\renewcommand{\bottomfraction}{0.99}
+\renewcommand{\dblfloatpagefraction}{0.99}
+\renewcommand{\dbltopfraction}{0.99}
+\setcounter{totalnumber}{99}
+\setcounter{topnumber}{99}
+\setcounter{bottomnumber}{99}
+
+
+% Makes no indent the default
+%\setlength{\parindent}{1pc}
+%WACV 
+% set dimensions of columns, gap between columns, and paragraph indent
+%\setlength{\textheight}{8.875in}
+%\setlength{\textwidth}{6.875in}
+%\setlength{\columnsep}{0.3125in}
+%\setlength{\topmargin}{0in}
+%\setlength{\headheight}{0in}
+%\setlength{\headsep}{0in}
+\setlength{\parindent}{0pc}
+%\setlength{\oddsidemargin}{-.304in}
+%\setlength{\evensidemargin}{-.304in}
+
+
+
+% WACV 
+
+% Add a period to the end of an abbreviation unless there's one
+% already, then \xspace.
+\makeatletter
+\DeclareRobustCommand\onedot{\futurelet\@let@token\@onedot}
+\def\@onedot{\ifx\@let@token.\else.\null\fi\xspace}
+
+\def\eg{\emph{e.g}\onedot} \def\Eg{\emph{E.g}\onedot}
+\def\ie{\emph{i.e}\onedot} \def\Ie{\emph{I.e}\onedot}
+\def\cf{\emph{c.f}\onedot} \def\Cf{\emph{C.f}\onedot}
+\def\etc{\emph{etc}\onedot} \def\vs{\emph{vs}\onedot}
+\def\wrt{w.r.t\onedot} \def\dof{d.o.f\onedot}
+\def\etal{\emph{et al}\onedot}
+\makeatother
+
+%\usepackage[hyperref,backpageref]{hyperref}
+
+% Include other packages here, before hyperref.
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+% http://en.wikibooks.org/wiki/LaTeX/Hyperlinks
+\usepackage[backref=true,%
+    pagebackref=true,%
+    breaklinks=true,%
+    letterpaper=true,%
+    bookmarks=true,%
+    bookmarksnumbered=true,%
+    bookmarksopen=true,%
+    hyperfigures=true,%
+    pdfauthor={Jason Parham},%
+    colorlinks]{hyperref}
+\usepackage{cleveref}
+\usepackage{pdfcomment}
+%\usepackage[landscape]{geometry}
+%\usepackage{wallpaper}
+%\usepackage{fullpage}
+\renewcommand{\thesection}{\arabic{section}}
+\usepackage[numbers]{natbib}
+
+% For space after ensuremath
+\usepackage{xspace}
+\usepackage{minted}
+\definecolor{mintedbackground}{rgb}{0.95,0.95,0.95}
+\newmintedfile[pythoncode]{python}{
+    %bgcolor=mintedbackground,
+    fontfamily=courier, % tt, courier, helvetica
+    fontsize=\footnotesize,
+    frame= leftline, %none, % non, leftline, topline, bottomline, lines, single
+    %framerule=0.4pt,
+    framesep=2mm,
+    gobble=0,
+    linenos=true, % number the lines? 
+    %mathescape=false
+    numberblanklines=true,
+    numbersep=5pt, % 12pt
+    %obeytabs=false,
+    samepage=false, %with this setting you can force the list to appear on the same page
+    %showspaces=false,
+    %showtabs =false,
+    tabsize=4,
+    %texcl=false,
+}
+
+
+\usepackage{enumerate}
+\usepackage{ifplatform}
+\usepackage{relsize}

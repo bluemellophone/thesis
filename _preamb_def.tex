@@ -1,0 +1,193 @@
+%%%%%%%%%%%%%%%
+% Cross platform bullshit
+\ifwindows
+\newcommand{\wincommand}[2]{\renewcommand{#1}{#2}}
+\newcommand{\lincommand}[2]{\newcommand{#1}{#2}}
+\newcommand{\linonlycommand}[2]{}
+\else
+\newcommand{\wincommand}[2]{\newcommand{#1}{#2}}
+\newcommand{\lincommand}[2]{\renewcommand{#1}{#2}}
+\newcommand{\linonlycommand}[2]{\newcommand{#1}{#2}}
+\fi
+%%%%%%%%%%%%%%%
+% MACROS
+%
+\newcommand{\bb}{\mathbb}
+
+\newcommand{\DIM}{D }
+\newcommand{\see}[1]{see \cref{#1}}
+\newcommand{\See}[1]{See \cref{#1}}
+\newcommand{\Refin}[1]{Referenced in \cref{#1}}
+\newcommand{\refin}[1]{referenced in \cref{#1}}
+\newcommand{\Imgcite}[1]{Image from \cite{#1}}
+
+\newcommand{\topic}[1]{\subsubsection{#1}}
+
+\renewcommand{\cal}[1]{\mathcal{#1}}
+\newcommand{\superscript}[1]{\ensuremath{^{\textrm{#1}}}}
+\newcommand{\subscript}[1]{\ensuremath{_{\textrm{#1}}}}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\dsi}{\displaystyle \hspace*{5mm}}
+\newcommand{\ind}{\ensuremath{\hspace*{5mm}}}
+\newcommand{\txt}[1]{\textrm{#1}}
+\newcommand{\txtbf}[1]{\textbf{#1}}
+\newcommand{\ttxt}[1]{{\tt #1}}
+\renewcommand{\th}{\superscript{th} }
+\newcommand{\nd}{\superscript{nd} }
+%\newcommand{\st}{\superscript{st} }
+\newcommand{\bincase}[1]{
+    \ensuremath{
+    \begin{cases}
+    1 & \txt{if } #1 \\
+    0 & \txt{otherwise}
+    \end{cases}
+    }}
+\newcommand{\bincases}[2]{
+    \ensuremath{
+    \begin{cases}
+    #1 & \txt{if } #2 \\
+    0 & \txt{otherwise}
+    \end{cases}
+    }}
+
+\newcommand{\tight}[1]{\mkern-6mu#1\mkern-6mu }
+\newcommand{\ttimes}{\tight{\times}}
+\newcommand{\teq}{\tight{=}}
+\newcommand{\teqq}{\tight{==}}
+
+%%%%%%%%%%%%%%%
+% Constants
+\newcommand{\PTIME}{{\tt PTIME}}
+
+%%%%%%%%%%%
+% MATH MACROS
+\newcommand{\paren}[1]{\left( #1 \right)}
+\newcommand{\curly}[1]{\left\{ #1 \right\}}
+\newcommand{\func}[2]{\mathbin{#1}\paren{#2}}
+
+%%%%%%%%%%%%%%%
+% Operators
+% 
+% Logic
+\newcommand{\assign}{:=}
+\newcommand{\eq}{=}
+%\newcommand{\where}{\;\big\vert\;}
+\newcommand{\where}{\;\colon\;}
+\newcommand{\given}{\;\big\vert\;}
+\newcommand*\AND{\txtbf{ and } }
+\newcommand*\OR{\txtbf{ or } }
+\newcommand*\xor{\mathbin{\oplus}}
+\newcommand{\union}{\cup}
+\newcommand{\Union}{\bigcup}
+\newcommand{\intersect}{\cap}
+\renewcommand{\mod}{\txt{mod}}
+\newcommand{\Normal}{\cal{N}}
+\newcommand{\eye}{\mat{I}}
+
+% Probability Operator
+%\newcommand{\probop}{\mathbin{\operatorname{\mathbb{P}}}}
+%\newcommand{\probop}{\mathbin{\operatorname{Pr}}}
+\newcommand{\probop}{\mathbin{\operatorname{p}}}
+\newcommand{\expectop}{\mathbb{E}}
+\newcommand{\parzenop}{\mathbin{\hat{\probop}}}
+\newcommand{\Parz}[1]{\parzenop\paren{#1}}
+\newcommand{\logop}{\mathbin{\operatorname{log}}}
+\newcommand{\lnop}{\mathbin{\operatorname{ln}}}
+\newcommand{\expop}{\mathbin{\operatorname{exp}}}
+\newcommand{\distri}{\sim}
+
+% Convolution
+\newcommand{\conv}{\mathop{\scalebox{1.5}{\raisebox{-0.2ex}{$\ast$}}}}
+\newcommand{\laplace}{\nabla^2} 
+\newcommand{\del}{\Delta}
+% Probability
+%\renewcommand{\Pr}[1]{\ensuremath{\txt{Pr} \left(#1\right)}}
+%\renewcommand{\Pr}{\mathbb{P}}
+\renewcommand{\Pr}[1]{\func{\probop}{#1}}
+\newcommand{\Prs}[2]{\func{\probop_{#1}}{#2}}
+\newcommand{\Ex}[1]{\ensuremath{\expectop \left[#1\right]}}
+\newcommand{\ExUnder}[2]{\ensuremath{\underset{#1}{\expectop \left[#2\right]}}}
+\newcommand{\ExSub}[2]{\ensuremath{\expectop_{#1} \left[#2\right]}}
+% Optimization
+\newcommand{\argmax}[1]{\underset{#1}{\operatorname{argmax}}\;}
+\newcommand{\argmin}[1]{\underset{#1}{\operatorname{argmin}}\;}
+\newcommand{\localmax}[1]{\underset{#1}{\operatorname{localmax}}}
+\newcommand{\arglocalmax}[1]{\underset{#1}{\operatorname{localmax}}}
+\newcommand{\arglocalextrema}[1]{\underset{#1}{\operatorname{extrema}}}
+% Calculation
+\renewcommand{\exp}[1]{\txt{exp}\left(#1\right)}
+\renewcommand{\ln}[1]{\txt{ln}\left(#1\right)}
+
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+
+% Linear Algebra
+%\newcommand{\sqrtm}[1]{\operatorname{sqrtm}(#1)}
+\newcommand{\sqrtm}[1]{#1^{\frac{1}{2}}}
+\newcommand{\tr}{\txt{Tr}}
+\renewcommand{\det}{\txt{Det}}
+\newcommand{\cov}{\Sigma}
+\newcommand{\ltwonormvec}[1]{\frac{#1}{\elltwo{#1}}} 
+\newcommand{\card}[1]{|#1|} 
+\newcommand{\braket}[2]{\left<#1|#2\right>} 
+\newcommand{\bra}[1]{\left<#1|} 
+\newcommand{\ket}[2]{|#1\right>} 
+%\newcommand{\card}[1]{\txt{card}(#1)} 
+%\newcommand{\sqrtm}[1]{#1^(.5)}
+
+
+%%%%%%%%%%%%%%%
+% Variables
+% 
+
+% Better ensure math with a space  Actually no. just use \cmd\
+%\newcommand{\enmath}[1]{\ensuremath{#1}\xspace}
+
+\newcommand{\mat}[1]{\ensuremath{\mathbf{#1}}} %Should always be capital
+\newcommand{\rand}[1]{\ensuremath{\mathbf{#1}}}  %Should always be capital
+\newcommand{\set}[1]{\ensuremath{\mathcal{#1}}}  %Should always be lowercase
+\let\arrowvec\vec % Keep old arrowvec functionality
+\renewcommand{\vec}[1]{\ensuremath{\mathbf{#1}}} %Should always be lowercase
+% An explicit vector 
+%  e.g. \VEC{ x \\ y \\ z}
+\newcommand{\VEC}[1]{\ensuremath{
+    \Bigl[\negthinspace \begin{smallmatrix} #1
+    \end{smallmatrix} \negthinspace \Bigr] }}
+\newcommand{\BVEC}[1]{
+    \begin{bmatrix}
+        #1
+    \end{bmatrix}}
+% An explicit matrix 
+% e.g. \MAT{ a & b \\ c & d}
+\newcommand{\MAT}[1]{\ensuremath{
+    \Bigl[ \begin{smallmatrix} #1
+    \end{smallmatrix} \Bigr] }}
+
+
+\newcommand{\REAL}{\mathbb{R}}
+%\renewcommand{\Pr}{\color{red} \txtbf{{Pr}} \color{black}}
+
+\newcommand{\elltwo}[1]{||#1||_2}
+\newcommand{\ltwo}[1]{||#1||_2}
+\newcommand{\lone}[1]{||#1||_1}
+\newcommand{\len}[1]{|#1|}
+\newcommand{\abs}[1]{|#1|}
+
+\newcommand{\cnote}[1]{%
+	{\color{red}[#1]}
+}
+
+%\newcommand{\tau}[1]{|#1|}
+
+
+%%%%%%%%%%%%%%%%%%
+% Common notation
+\newcommand{\TP}{\tt{TP}}
+\newcommand{\TN}{\tt{TN}}
+\newcommand{\FP}{\tt{FP}}
+\newcommand{\FN}{\tt{TN}}
+
+\newcommand{\boldgreek}[1]{\mbox{\boldmath $ #1 $}}
+
+\newcommand{\eps}{\epsilon}
+\newcommand{\prefers}{\succ}
+\newcommand{\preferseq}{\succeq}

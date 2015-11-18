@@ -75,7 +75,7 @@ Build Instructions
 * View PDF document in rpithesis.pdf
 
 
-Degree Coursework [credits]
+Degree Coursework [Credits]
 ---------------------------
 * Computer Operating Systems [3]
 * Cryptography &ambs; Network Security I [3]

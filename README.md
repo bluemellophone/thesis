@@ -1,5 +1,5 @@
-Master's Thesis Source Files
-============================
+2015 Master's Thesis Source Files
+=================================
 
 Introduction
 ------------
@@ -116,7 +116,7 @@ Acknowledgements
 the IBEIS team with notable help from Dr. Paula Kahumbu and staff at Wildlife
 Direct in Nairobi, Kenya.  The IBEIS team would like to thank the people and
 government of Kenya for supporting this research (Permit
-#NACOSTI/P/14/1003/1628), with special recognition to Senior Warden of the
+&#35; NACOSTI/P/14/1003/1628), with special recognition to Senior Warden of the
 Nairobi National Park, Nely Palmeris, and Macharia &lsquo;Michael&ldquo;
 Kimura of the Kenyan Wildlife Service (KWS).  Other contributions to this thesis
 were provided by Clara Machogu, Marco Maggioni, Jon Crall, Hendrik Weideman,
@@ -128,8 +128,8 @@ has patiently guided me to this milestone of my academic career.
 
 The open-source software and research detailed in this thesis was supported by
 Rensselaer Polytechnic Institute (RPI) and with financial support from NSF EAGER
-Grant (Award #1453503) *Collaborative Research: EAGER: Prototype of an Image-
-Based Ecological Information System (IBEIS)*.
+Grant (Award &#35; 1453503) *Collaborative Research: EAGER: Prototype of an
+Image-Based Ecological Information System (IBEIS)*.
 
 Lastly, but most importantly, I would like to thank my wife, Lindsay, for
 providing patient, never-failing support.  Her dedication to my academic career

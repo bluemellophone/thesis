@@ -136,4 +136,4 @@ and intellectual progress has been the best example of sacrificial love I have
 ever had the privilege to personally experience.
 
 <img src="resources/logo_ibeis.png" alt="IBEIS Logo" height="200">
-<img src="resources/logo_wd_alpha.png" alt="Wildlife Direct Logo" height="200">
+<img src="resources/logo_wd_alpha.png" alt="Wildlife Direct Logo" height="150">

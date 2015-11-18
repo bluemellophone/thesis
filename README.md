@@ -5,14 +5,13 @@ Introduction
 ------------
 
 This repository holds the source files used to generate my 2015 Master's Thesis
-entitled, &lsquo;Photographic Censusing of Zebra and Giraffe in the Nairobi
-National Park&ldquo;.  This thesis document is meant to be a partial
-fullfillment of the requirements for a M.S. degree in Computer Science at RPI.
-The thesis document is paired with an oral presentation (given in August 2015)
-and an accompanying poster.
+entitled, &rdquo;Photographic Censusing of Zebra and Giraffe in the Nairobi
+National Park&rdquo;.
 
-The thesis document is to be added to the library at RPI.  This thesis was
-submitted to the University in November 2015 for graduation December, 2015.
+This thesis document is meant to be a partial fullfillment of the requirements
+for a M.S. degree in Computer Science at RPI.  The thesis is paired with an oral
+presentation (given in August 2015) and an accompanying poster.  The final draft
+was submitted to the University in November 2015 for graduation December, 2015.
 
 Master's Committee
 * Charles Stewart, Thesis Advisor, Computer Science Department Chair
@@ -20,10 +19,10 @@ Master's Committee
 * B&uuml;lent Yener
 
 *Note: From feedback from the committee after the oral presentation, the title
-of the thesis was changed from &lsquo;How Many Plains Zebras And Masai Giraffes
+of the thesis was changed from &rdquo;How Many Plains Zebras And Masai Giraffes
 are in the Nairobi National Park? - A Case Study in Computer Vision and Citizen
-Science&ldquo; to &lsquo;Photographic Censusing of Zebra and Giraffe in the
-Nairobi National Park&ldquo;*
+Science&rdquo; to &rdquo;Photographic Censusing of Zebra and Giraffe in the
+Nairobi National Park&rdquo;*
 
 
 Abstract
@@ -36,7 +35,7 @@ methods impractical and unpredictable due to the park's arbitrary population.
 Traditional and invasive identification methods (e.g. ear tags, ear notches,
 radio collars) are costly and infeasible for large populations.  As an
 alternative, we propose a passive, appearance-based approach that uses images of
-animals taken by volunteer &lsquo;citizen scientists&ldquo; to identify
+animals taken by volunteer &ldquo;citizen scientists&rdquo; to identify
 individuals.  Image data is analyzed using our prototype IBEIS computer vision
 algorithm, which recognizes animals based solely on their appearance.  The
 collection of images over time allows for a more comprehensive ecological
@@ -117,7 +116,7 @@ the IBEIS team with notable help from Dr. Paula Kahumbu and staff at Wildlife
 Direct in Nairobi, Kenya.  The IBEIS team would like to thank the people and
 government of Kenya for supporting this research (Permit
 &#35; NACOSTI/P/14/1003/1628), with special recognition to Senior Warden of the
-Nairobi National Park, Nely Palmeris, and Macharia &lsquo;Michael&ldquo;
+Nairobi National Park, Nely Palmeris, and Macharia &ldquo;Michael&rdquo;
 Kimura of the Kenyan Wildlife Service (KWS).  Other contributions to this thesis
 were provided by Clara Machogu, Marco Maggioni, Jon Crall, Hendrik Weideman,
 Michael Brown, and Zachary Jablons.  I would like to thank Dr. Tanya

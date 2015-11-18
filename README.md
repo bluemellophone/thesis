@@ -135,6 +135,6 @@ providing patient, never-failing support.  Her dedication to my academic career
 and intellectual progress has been the best example of sacrificial love I have
 ever had the privilege to personally experience.
 
-->![](resources/logo_ibeis.png "IBEIS Logo") ![](resources/logo_wd_alpha.png "Wildlife Direct Logo")<-
+![](resources/logo_ibeis.png =250x "IBEIS Logo") ![](resources/logo_wd_alpha.png =250x "Wildlife Direct Logo")
 
 

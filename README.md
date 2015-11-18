@@ -5,7 +5,7 @@ Introduction
 ------------
 
 This repository holds the source files used to generate my 2015 Master's Thesis
-entitled, &rdquo;Photographic Censusing of Zebra and Giraffe in the Nairobi
+entitled, &ldquo;Photographic Censusing of Zebra and Giraffe in the Nairobi
 National Park&rdquo;.
 
 This thesis document is meant to be a partial fullfillment of the requirements
@@ -19,9 +19,9 @@ Master's Committee
 * B&uuml;lent Yener
 
 *Note: From feedback from the committee after the oral presentation, the title
-of the thesis was changed from &rdquo;How Many Plains Zebras And Masai Giraffes
+of the thesis was changed from &ldquo;How Many Plains Zebras And Masai Giraffes
 are in the Nairobi National Park? - A Case Study in Computer Vision and Citizen
-Science&rdquo; to &rdquo;Photographic Censusing of Zebra and Giraffe in the
+Science&rdquo; to &ldquo;Photographic Censusing of Zebra and Giraffe in the
 Nairobi National Park&rdquo;*
 
 

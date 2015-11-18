@@ -80,9 +80,9 @@ Build Instructions
 Degree Coursework [Credits]
 ---------------------------
 * Computer Operating Systems [3]
-* Cryptography &ambs; Network Security I [3]
+* Cryptography & Network Security I [3]
 * Randomized Algorithms [3]
-* Cryptography &ambs; Network Security II [3]
+* Cryptography & Network Security II [3]
 * Machine Learning [3]
 * Programming Languages [3]
 * Computational Vision [3]

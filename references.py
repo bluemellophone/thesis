@@ -16,7 +16,7 @@ def _replace(line, extras=False):
         'issue = {S12}'     : 'number = {{Special 12}}',
         'Deng'              : '{Deng \\textit{et al.}}',
         'ø'                 : '{\\o}',
-        'é'                 : '{\\\'u}',
+        'é'                 : '{\\\'e}',
         'ü'                 : '{\\"u}',
         'Lasagne/Lasagne'   : 'Lasagne/Lasagne [Accessed: 1 Nov. 2015].'
     }
